@@ -17,3 +17,6 @@ db.system.users.remove({user:'jspang'})
 
 // 建权：验证用户的用户名和密码是否正确
 db.auth('jspang','123456')
+
+// mongod
+// mongo -u jspang -p 123456 127.0.0.1:27017/admin
